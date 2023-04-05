@@ -1,0 +1,36 @@
+header{
+
+}
+.left{
+    pointer-events: auto;
+    cursor: pointer;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 50px;
+    color: #1D406F !important;
+    z-index: 41;
+    font-family: fontFamilySerif;
+    font-weight: bold;
+    display: flex;
+    height: 73px;
+}
+.right{
+    width: 81px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+color: #18355A;
+font-weight: bold;
+font-size: 25px;
+margin: 10px;
+}
+.main_body{
+   
+  
+margin: 0 13px;
+padding-top: 72px;
+}
+.p{
+    width: 71%;
+    padding: 0 66px;
+  }
