@@ -1,7 +1,6 @@
-header{
+header {}
 
-}
-.left{
+.left {
     pointer-events: auto;
     cursor: pointer;
     text-decoration: none;
@@ -14,23 +13,48 @@ header{
     display: flex;
     height: 73px;
 }
-.right{
+
+.right {
     width: 81px;
-display: flex;
-justify-content: flex-end;
-align-items: center;
-color: #18355A;
-font-weight: bold;
-font-size: 25px;
-margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #18355A;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
 }
-.main_body{
-   
-  
-margin: 0 13px;
-padding-top: 72px;
+
+.main_body {
+
+
+    margin: 0 13px;
+    padding-top: 72px;
 }
-.p{
+
+.p {
     width: 71%;
     padding: 0 66px;
-  }
+}
+
+@media(max-width:576px) {
+    .screen {
+        flex-direction: column;
+    }
+
+    .firstclass {
+        height: 200px;
+    }
+
+    .p {
+        width: 100%;
+        padding: 0 11px;
+    }
+    header{
+        padding: 0px 1px !important;
+    }
+    .secclass{
+        display: flex;
+justify-content: center;
+    }
+}
